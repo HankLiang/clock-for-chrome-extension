@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+  <head>
+    <title>久坐提醒</title>
+    <meta charset="utf-8" />
+    <link href="bootstrap/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="style.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <div class="main-content">
+      <h3 class="center">
+        久坐提醒设置
+      </h3>
+      <form>
+        <div class="form-group">
+          <label>- 昵称</label>
+          <input class="form-control" type="text" id="nickname" placeholder="默认：主淫" />
+        </div>
+        <div class="form-group">
+          <label>- 提醒间隔</label>
+
+          <input id="activate" type="checkbox" />
+          开启提醒
+          <div class="frequency-setting">
+            每隔
+            <div class="dropdown">
+              <button class="btn btn-default dropdown-box" type="button">
+               <span id="dropdown-box-text"></span>
+               <span class="caret"></span>
+              </button>
+              <ul class="dropdown-menu">
+                <li>20</li>
+                <li>30</li>
+                <li>40</li>
+                <li>50</li>
+                <li>60</li>
+                <li>70</li>
+                <li>80</li>
+              </ul>
+            </div>
+            分钟提醒一次
+          </div>
+        </div>
+      </form>
+    </div>
+
+    <script src="bootstrap/jquery-3.0.0.min.js"></script>
+    <script src="options.js"></script>
+  </body>
+</html>
+
+

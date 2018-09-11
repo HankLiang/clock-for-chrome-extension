@@ -1,0 +1,55 @@
+html, body, .main-content {
+  height: 100%;
+}
+
+body {
+  font: 84% Arial, sans-serif;
+  background-color: #fff;
+}
+
+.main-content {
+	width: 650px;
+	margin: 0 auto;
+	background-color: #f8f8f8;
+	border: 1px solid #ccc;
+  padding: 20px;
+}
+
+.form-group {
+  font-size: 16px;
+  color: #787878;
+  margin-bottom: 30px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: normal;
+  margin-bottom: 5px;
+}
+
+.dropdown {
+  display: inline-block;
+}
+
+.dropdown-box {
+  width: 60px;
+}
+
+.dropdown-menu li {
+  padding: 0 10px;
+  line-height: 30px;
+}
+
+.dropdown-menu li:hover {
+  background-color: #eee;
+}
+
+.center {
+  text-align: center;
+}
+
+.frequency-setting {
+  margin-left: 15px;
+  display: none;
+  margin-top: 10px;
+}

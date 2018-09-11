@@ -1,0 +1,21 @@
+{
+  "name": "久坐提醒",
+  "manifest_version": 2,
+  "version": "1.0",
+  "description":
+    "现在的年轻人大多都是坐着工作，长时间坐着不动会导致自己的颈椎、腰椎变形。该应用可以设置久坐时间，提醒用户起身活动。",
+  "icons": {"16": "images/16.png", "48": "images/48.png"},
+  "permissions": [
+    "notifications", "tabs", "storage"
+  ],
+  "browser_action": {
+    "default_title": "久坐提醒",
+    "default_icon": "images/16.png",
+    "default_popup": "popup.html"
+  },
+  "options_page": "options.html",
+  "background": { "scripts": ["background.js"] },
+  "web_accessible_resources": [
+    "images/48.png"
+  ]
+}
